@@ -2,7 +2,7 @@
 <h1 align="left">Frontend Project</h1>
 <hr>
 <h4>
-  This Project contain a Frontend UI make using Tailwind-CSS, React.js
+  This Project contain a Frontend make using Tailwind-CSS, React.js
 </h4>
 
 <h2>Getting Started</h2>
