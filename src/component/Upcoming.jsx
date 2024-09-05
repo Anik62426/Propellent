@@ -11,7 +11,7 @@ const Upcoming = () => {
 
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8 mt-16">
         <div className="flex gap-2 bg-white  ">
-            <div className="bg-black h-[44px] text-green-300
+            <div className="bg-black h-[44px] text-lime-400
             w-[66px] text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
@@ -25,7 +25,7 @@ const Upcoming = () => {
         {/* 2nd card */}
         <div className="flex gap-2 bg-white  ">
             <div className="bg-black h-[44px]  w-[66px]
-            text-green-300 text-2xl px-4 rounded-full flex items-center justify-center">
+            text-lime-400 text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
             <div>
@@ -38,7 +38,7 @@ const Upcoming = () => {
         {/* 3rd card */}
         <div className="flex gap-2 bg-white  ">
             <div className="bg-black h-[44px]  w-[66px]
-            text-green-300
+          text-lime-400
              text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
@@ -53,7 +53,7 @@ const Upcoming = () => {
 
         <div className="flex gap-2 bg-white  ">
             <div className="bg-black h-[44px] w-[66px]
-            text-green-300
+            text-lime-400
              text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
@@ -67,7 +67,7 @@ const Upcoming = () => {
         {/* 5th card */}
         <div className="flex gap-2 bg-white ">
             <div className="bg-black h-[44px]
-            text-green-300
+            text-lime-400
             w-[66px] text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
@@ -81,7 +81,7 @@ const Upcoming = () => {
         {/* 6th card */}
         <div className="flex gap-2 bg-white">
             <div className="bg-black h-[44px]
-            text-green-300
+            text-lime-400
             w-[66px] text-2xl px-4 rounded-full flex items-center justify-center">
             <FaFingerprint/>
             </div>
@@ -97,8 +97,8 @@ const Upcoming = () => {
     
        
 
-       <div className='text-center mt-20'>
-       <button onClick={()=> navigate("/benefits")} class="px-6 py-3 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-blue-300">
+       <div className='text-center mt-10 mb-16'>
+       <button onClick={()=> navigate("/benefits")} class="px-4 py-2  bg-blue-600 text-white font-semibold rounded-full shadow-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300">
         Get Template
        </button>
        </div>
