@@ -98,7 +98,7 @@ const Upcoming = () => {
        
 
        <div className='text-center mt-20'>
-       <button onClick={()=> navigate("/benefits")} class="px-6 py-3 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-blue-300">
+       <button onClick={()=> navigate("/benefits")} className="px-6 py-3 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-blue-300">
         Get Template
        </button>
        </div>
