@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 
-const signIn = () => {
+const SignIn = () => {
   return (
     <div className="flex">
       <Rightside />
@@ -11,7 +11,7 @@ const signIn = () => {
   );
 };
 
-export default signIn;
+export default SignIn;
 
 
 
