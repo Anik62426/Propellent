@@ -8,9 +8,11 @@
 <h2>Getting Started</h2>
 <h3>Prerequisites</h3>
 <h4>Ensure you have the following installed on your system:</h4>
+
 + Node.js (v14.x or higher)
 + npm (v6.x or higher)
-+ MongoDB (local or MongoDB Atlas)
++ react": "^18.3.1",
++ tailwindcss": "^3.4.10",
 
 <h3>Folder Structure</h3> 
 
