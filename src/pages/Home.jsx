@@ -6,9 +6,11 @@ const Home = () => {
   return (
     <div>
       <SignIn/>
+
       <Infogood/>
       <Upcoming/>
     
+
     </div>
     
   )
