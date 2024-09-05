@@ -14,7 +14,6 @@
 + react": "^18.3.1",
 + tailwindcss": "^3.4.10",
 
-<h3>Folder Structure</h3> 
 
 ## Folder Structure
 
