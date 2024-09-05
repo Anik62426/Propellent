@@ -59,9 +59,9 @@ function Rightside() {
             src={"../src/assets/profile.png"}
             alt="profile"
           />
-          {Array.from({ length: 5 }, () => (
-            <Star fill="#FEC84B" strokeWidth={0} />
-          ))}
+          <div className=" flex pl-2">{Array.from({ length: 5 }, (x,i) => (
+              <Star key={i} fill="#FEC84B" strokeWidth={0} />
+          ))}</div>
         </div>
       </div>
       <div className="ml-[13rem] mt-16 shadow-lg rounded-2xl w-[24rem] h-[20rem] ">
