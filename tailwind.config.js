@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'footer-texture': "url('./src/assets/footer-texture.jpeg')",
+      }
+    },
   },
   plugins: [],
 }
