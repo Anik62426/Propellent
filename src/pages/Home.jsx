@@ -1,9 +1,11 @@
 import React from 'react'
+import Infogood from '../component/Infogood'
 
 const Home = () => {
   return (
     <div>
-        hel
+     {/* seconsd home page */}
+     <Infogood/>
     </div>
   )
 }
