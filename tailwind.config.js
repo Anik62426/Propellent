@@ -6,10 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Roboto', 'sans-serif','Poppins'],
-        // Add other font families if needed
-    },
+      backgroundImage:{
+        'footer-texture': "url('./src/assets/footer-texture.jpeg')",
+      }
     },
   },
   plugins: [],
