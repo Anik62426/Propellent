@@ -57,22 +57,22 @@ function Rightside() {
         <div className="flex items-center mt-5">
           <img
             className="rounded-full h-8 p-0.5 bg-white"
-            src={"../src/assets/profile.png"}
+            src={"https://res.cloudinary.com/dcfcgilpx/image/upload/v1725844240/f3ocrnptmm4rixcmbxja.avif"}
             alt="profile"
           />
           <img
             className="rounded-full h-8 p-0.5 bg-white ml-[-10px]"
-            src={"../src/assets/profile.png"}
+            src={"https://res.cloudinary.com/dcfcgilpx/image/upload/v1725844240/f3ocrnptmm4rixcmbxja.avif"}
             alt="profile"
           />
           <img
             className="rounded-full h-8 p-0.5 bg-white ml-[-10px]"
-            src={"../src/assets/profile.png"}
+            src={"https://res.cloudinary.com/dcfcgilpx/image/upload/v1725844240/f3ocrnptmm4rixcmbxja.avif"}
             alt="profile"
           />
           <img
             className="rounded-full h-8 p-0.5 bg-white ml-[-10px]"
-            src={"../src/assets/profile.png"}
+            src={"https://res.cloudinary.com/dcfcgilpx/image/upload/v1725844240/f3ocrnptmm4rixcmbxja.avif"}
             alt="profile"
           />
           <div className=" flex pl-2">{Array.from({ length: 5 }, (x,i) => (
