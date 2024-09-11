@@ -80,40 +80,36 @@ const Plans = () => {
 
   // -----------------------
 
-  const [plan,SetPlans] = useState(false)
- 
+  const [plan, SetPlans] = useState(false);
+
   return (
     <div className="ml-10 mt-10 mb-20">
       <div>
         <h1 className="text-4xl">Choose the plan that's right for you</h1>
       </div>
 
-      <div onClick={()=>SetPlans(!plan)} className="flex justify-evenly items-start mt-10 ">
+      <div
+        onClick={() => SetPlans(!plan)}
+        className="flex justify-evenly items-start mt-10 "
+      >
         {data.map((ele, index) => (
           <PricingComponent key={index}>{ele}</PricingComponent>
         ))}
-        {/* {
-          plan ? <p>alpha</p>:<p>beta</p>
-        } */}
       </div>
     </div>
   );
 };
 
-function PricingComponent({ children}) {
+function PricingComponent({ children }) {
   const [payment, SetPayment] = useState(0);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function handleChange(e) {
     SetPayment(e.target.value);
   }
 
-
-
-
   return (
     <div className=" flex flex-col items-center  w-[27%] border-2 rounded-xl hover:border-t-orange-600 hover:border-t-8 hover:border-l-orange-500 hover:border-b-orange-400 hover:border-r-orange-300">
-    
       <div className="pl-5 mt-5 h-20 py-4 w-[90%] text-start rounded-xl bg-gradient-to-r from-purple-700 via-blue-600 to-blue-400 ...">
         <p className="text-white font-semibold">{children.title}</p>
         <p className="text-white font-semibold"></p>
@@ -123,7 +119,6 @@ function PricingComponent({ children}) {
           <p className="text-lg">Pricing</p>
           <div className="flex ">
             <p className="text-gray-500 text-lg line line-through pr-2">
-          
               ${children.pricing.old}
             </p>
             <p className="text-black pr-2 text-lg"> ${children.pricing.new}</p>
@@ -147,13 +142,14 @@ function PricingComponent({ children}) {
           className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg  px-20 py-3 text-center me-2 mb-14"
           name="payment"
           value={children.pricing.new}
-          onClick={(e) => {handleChange(e),navigate('./payment')}}
+          onClick={(e) => {
+            handleChange(e), navigate("./payment");
+          }}
         >
           Continue
         </button>
       </div>
-      </div>
-    
+    </div>
   );
 }
 export default Plans;
